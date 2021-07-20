@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gassan Yacteen Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body lang="en-us">
     <section class = "navbar">
         <div class = "container">
-            <a class="home-button top left" href="#">Gassan <span>Yacteen</span></a>
-            <img id = "mobile-menu-icon" class = "mobile menu" src="images/menu.svg" alt="menu-icon">
+            <a class="home-button" href="#">Gassan <span>Yacteen</span></a>
+            <img id="mobile-open-menu-icon" class="mobile-menu" src="images/menu.svg" alt="menu-open-icon">
             <nav>
-                <img id = "mobile-menu-exit-icon" class = "mobile-menu-exit" src = "images/exit.svg" alt = "menu-exit-icon">
+                <img id = "mobile-close-menu-icon" class = "mobile-menu-exit" src="images/exit.svg" alt="menu-exit-icon">
                 <ul class bigscreen-nav>
                     <li> <a href="#home-id" class = "green-hover">Home</a></li>
                     <li><a href="#about-me-id" class = "green-hover">About Me</a></li>
@@ -26,8 +28,10 @@
     </section>
 
 <section id = "home-id" class = "hero">
-    <div class = hero>
-        <h1>Hello! I am Gassan Yacteen, ana men lebnan. Welcome to my Website!</h1>
+    <div class="container">
+        <div class = hero>
+            <h1>Hello! I am Gassan Yacteen, ana men lebnan. Welcome to my Website!</h1>
+        </div>
     </div>
     
 </section>
@@ -38,6 +42,8 @@
         <p>I am Gassan, currently studying Physics at the UMass Amherst.
             My interests lie in General Relativity and Electromagnetism, but I also enjoy mathematics like differntial equations and tensor calculus.
         </p>
+        <a class = "resume-button" href="Resume.pdf"><button> Resume </button></a> <!-- Button link -->
+        <a class = "linkedin-button" href="https://www.linkedin.com/in/gassan-yacteen-7188661b3/"> <button>LinkedIn</button></a>
         <img class="abouut-me-picture" src="images/swag.jpg" alt="my-pic">
     </div>
 </section>
@@ -74,8 +80,8 @@
         </div>
 
         <div class="experience-paragraph">
-            <h1 class= "experience-paragraph-title">Personal Projects, - Part Time</h1>
-            <ul class ="experience-paragrapg-items">
+            <h1 class="experience-paragraph-title">Personal Projects, - Part Time</h1>
+            <ul class="experience-paragraph-items">
                 <li>Math & Physics Fun with Gus YouTube channel where I convey examples
                     of solving physics and math problems in an intuitive way</li>
                 <li>Extensive Linear Algebra Jupyter Notebook. Part of it includes 3D
@@ -86,11 +92,6 @@
                     allows the speed of light to remain as ’c’, or be computed as well as
                     inverse Lorentz transformation depending on boolean input</li>
             </ul>
-
-        </div>
-
-        <div class="experience-paragraph">
-            
         </div>
     </div>
 </section>

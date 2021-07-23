@@ -12,6 +12,14 @@ body {
   background: white;
 }
 
+.title {
+  font-weight: 800;
+  font-size: 2em;
+  padding: 0em 0em 1em 0em;
+  text-align: center;
+  padding: 1em 1em;
+}
+
 .navbar {
   padding: 1.3em 1em;
 }
@@ -136,7 +144,7 @@ body {
   z-index: 0;
 }
 
-.social {
+.hero-section .container .social {
   position: relative;
   z-index: 10;
   bottom: 4em;
@@ -151,11 +159,11 @@ body {
           align-items: center;
 }
 
-.social li {
+.hero-section .container .social li {
   list-style: none;
 }
 
-.social a {
+.hero-section .container .social a {
   display: inline-block;
   margin-left: 1.5em;
   margin-right: 1.5em;
@@ -167,23 +175,19 @@ body {
   transition: 0.5s;
 }
 
-.social a:hover {
+.hero-section .container .social a:hover {
   -webkit-transform: scale(2.5) translateY(-15px);
           transform: scale(2.5) translateY(-15px);
-}
-
-.title {
-  font-weight: 800;
-  font-size: 2em;
-  padding: 0em 0em 1em 0em;
-  text-align: center;
-  padding: 1em 1em;
 }
 
 .about-me-section {
   background: cyan;
   display: block;
   padding-bottom: 3em;
+}
+
+.about-me-section .container {
+  padding: 3em 3em;
 }
 
 .about-me-section .title, .about-me-section p {
@@ -198,8 +202,9 @@ body {
 
 .about-me-section p {
   font-size: 1.2em;
-  padding-right: 4em;
-  padding-left: 4em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
 }
 
 .about-me-section img {
@@ -261,7 +266,7 @@ body {
   background: dodgerblue;
 }
 
-label {
+.contact-section label {
   display: block;
   font-size: 1.4em;
   margin-bottom: .5em;
@@ -269,8 +274,8 @@ label {
   font-weight: 600;
 }
 
-input, textarea {
-  width: 25em;
+.contact-section input, .contact-section textarea {
+  width: 90%;
   padding: .8em;
   margin-bottom: 1em;
   margin-left: 2em;
@@ -278,7 +283,7 @@ input, textarea {
   border: 1px solid gray;
 }
 
-input[type="submit"] {
+.contact-section input[type="submit"] {
   background-color: black;
   color: white;
   font-weight: bold;
@@ -290,5 +295,34 @@ input[type="submit"] {
   padding: .8em 2em;
   width: unset;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 3em;
+  }
+  .hero-section .container .hero h1 {
+    font-size: 5em;
+    top: 1.8em;
+  }
+  .hero-section .container .hero h2 {
+    font-size: 3em;
+    top: 4em;
+    padding-bottom: 10em;
+  }
+  .about-me-section p {
+    font-size: 1.8em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero-section .container .hero h1 {
+    top: 4em;
+  }
+  .hero-section .container .hero h2 {
+    font-size: 3em;
+    top: 6.7em;
+    padding-bottom: 8em;
+  }
 }
 /*# sourceMappingURL=main.css.map */

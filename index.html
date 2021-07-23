@@ -9,6 +9,7 @@
 </head>
 
 <body lang="en-us">
+    
     <section class="navbar">
         <div class="container">
             <a class="home-button" href="#">Gassan <span>Yacteen</span></a>
@@ -105,21 +106,23 @@
         </div>
     </section>
 
+
     <section class="contact-section">
         <div class="container">
             <h1 class="title">Contact Me</h1>
             <div class="contact-me">
-                <form action="">
+                <form action="https://formsubmit.co/oareiqat@umass.edu" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name">
+                    <input type="text" id="name" name="name" placeholder="Name" required>
                     
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" placeholder="Email Address" required>
 
                     <label for="message">Message</label>
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message here..."></textarea>
 
-                    <input type="submit" class="send-message" value="Send message">
+                    <input type="submit" class="send-message" value="Send message" required>
                 </form>
             </div>
         </div>

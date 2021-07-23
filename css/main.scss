@@ -216,9 +216,13 @@ ul {
         padding: 2em 2em;
     }
     .experience-paragraph-title {
+        padding: 0.5em;
         font-size: 1.5em;
         font-family: "Open Sans";
         font-weight: 400;
+        background: green;
+        border: 3px solid white;
+        border-radius: 5px;
 
     }
 
@@ -231,6 +235,7 @@ ul {
 
       li{
           padding-top: 20px;
+          color: whitesmoke;
       }
       
       ul li::before {

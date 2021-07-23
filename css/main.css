@@ -230,9 +230,13 @@ ul {
 }
 
 .experience-section .experience-paragraph-title {
+  padding: 0.5em;
   font-size: 1.5em;
   font-family: "Open Sans";
   font-weight: 400;
+  background: green;
+  border: 3px solid white;
+  border-radius: 5px;
 }
 
 .experience-section ul {
@@ -245,6 +249,7 @@ ul {
 
 .experience-section li {
   padding-top: 20px;
+  color: whitesmoke;
 }
 
 .experience-section ul li::before {

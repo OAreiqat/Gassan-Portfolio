@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,400;1,700&display=swap");
 * {
   -webkit-box-sizing: border-box;
@@ -55,11 +55,8 @@ ul {
   position: relative;
   right: 0;
   width: 100%;
-  min-height: 100vh;
+  min-height: 95vh;
   padding: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -67,18 +64,22 @@ ul {
 }
 
 .hero h1 {
+  position: relative;
   font-family: 'Poppins';
   font-weight: bold;
   color: white;
   font-size: 2.5em;
   z-index: 1;
   text-align: center;
+  top: 4em;
 }
 
 .hero h2 {
+  top: 5em;
+  position: relative;
   font-family: 'Poppins';
   font-weight: bold;
-  color: white;
+  color: cyan;
   font-size: 2em;
   z-index: 1;
   text-align: center;
@@ -93,6 +94,7 @@ ul {
   -o-object-fit: cover;
      object-fit: cover;
   opacity: 0.8;
+  z-index: 0;
 }
 
 .social {
@@ -130,20 +132,59 @@ ul {
           transform: scale(2.5) translateY(-15px);
 }
 
+.about-me-section {
+  background: cyan;
+  display: block;
+  padding-bottom: 3em;
+}
+
+.about-me-section h1, .about-me-section p {
+  padding: 0em 0em 1em 0em;
+  text-align: center;
+  padding: 1em 1em;
+}
+
+.about-me-section span {
+  font-weight: bold;
+}
+
+.about-me-section h1 {
+  font-weight: 800;
+  font-size: 2em;
+}
+
+.about-me-section p {
+  font-size: 1.2em;
+}
+
+.about-me-section img {
+  width: 20em;
+  height: 20em;
+  border: 5px solid cyan;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.experience-section {
+  padding: 1em 1em;
+  background: deepskyblue;
+}
+
 label {
   display: block;
   font-size: 1.2em;
   margin-bottom: .5em;
+  margin-left: 1.7em;
 }
 
 input, textarea {
-  width: 100%;
+  width: 30em;
   padding: .8em;
   margin-bottom: 1em;
+  margin-left: 2em;
   border-radius: .3em;
   border: 1px solid gray;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 input[type="submit"] {

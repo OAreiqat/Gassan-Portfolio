@@ -228,15 +228,23 @@ body {
     }
 
     ul {
+        margin: 0;
+        padding-left: .1em;
+        display: grid;
         margin-top: -40px;
         list-style: none; /* Remove default bullets */
         font-size: 1.2em;
         font-weight: 600;
+        
+        
       }
 
       li{
           padding-top: 20px;
           color: whitesmoke;
+          position: relative;
+          margin-bottom: 1em;
+          margin-left: 2em;
       }
       
       ul li::before {
@@ -248,6 +256,7 @@ body {
         margin-left: -1em; /* Also needed for space (tweak if needed) */
       }
 }
+
 
 .contact-section {
 
@@ -313,6 +322,11 @@ body {
             font-size: 1.8em;
         }
     }
+    .contact-section{
+        input {
+            max-width: 400px;
+        }
+    }
 
 }
 
@@ -331,4 +345,35 @@ body {
             }
         }
     }
+    .experience-section {
+        h1 {
+            width: -webkit-max-content;
+            align-items: center;
+            justify-content: center;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        li {
+            margin-left: 30vw;
+            margin-right: 20vw;
+            align-items: center;
+            justify-content:center ;
+        }
+
+        .experience-paragraph-title {
+            padding: 0.5em;
+            font-size: 1.5em;
+            font-family: "Open Sans";
+            font-weight: 400;
+            
+            border: 3px solid white;
+            border-radius: 5px;
+    
+        }
+    
+    }
+
+
+    
 }

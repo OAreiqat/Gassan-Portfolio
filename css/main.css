@@ -86,7 +86,11 @@ body {
   cursor: pointer;
 }
 
-.hero {
+.hero-section .container {
+  margin-bottom: -29px;
+}
+
+.hero-section .container .hero {
   text-align: center;
   position: relative;
   width: 100%;
@@ -98,7 +102,7 @@ body {
   background: black;
 }
 
-.hero h1 {
+.hero-section .container .hero h1 {
   position: relative;
   font-family: 'Poppins';
   font-weight: bold;
@@ -109,7 +113,7 @@ body {
   top: 6em;
 }
 
-.hero h2 {
+.hero-section .container .hero h2 {
   top: 8em;
   position: relative;
   font-family: 'Poppins';
@@ -120,7 +124,7 @@ body {
   text-align: center;
 }
 
-.hero video {
+.hero-section .container .hero video {
   position: absolute;
   top: 0;
   left: 0;
@@ -208,7 +212,6 @@ body {
 }
 
 .experience-section {
-  margin-top: 29px;
   padding: 1em 1em;
   background: deepskyblue;
 }
@@ -255,7 +258,6 @@ body {
 }
 
 .contact-section {
-  margin-top: 29px;
   background: dodgerblue;
 }
 

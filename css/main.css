@@ -47,13 +47,12 @@ a {
 }
 
 ul {
-  color: red;
+  color: green;
 }
 
 .hero {
   text-align: center;
   position: relative;
-  right: 0;
   width: 100%;
   min-height: 95vh;
   padding: 100px;
@@ -68,19 +67,19 @@ ul {
   font-family: 'Poppins';
   font-weight: bold;
   color: white;
-  font-size: 2.5em;
+  font-size: 2.3em;
   z-index: 1;
   text-align: center;
-  top: 4em;
+  top: 6em;
 }
 
 .hero h2 {
-  top: 5em;
+  top: 8em;
   position: relative;
   font-family: 'Poppins';
   font-weight: bold;
   color: cyan;
-  font-size: 2em;
+  font-size: 1.8em;
   z-index: 1;
   text-align: center;
 }
@@ -116,7 +115,7 @@ ul {
   list-style: none;
 }
 
-.social li a {
+.social a {
   display: inline-block;
   margin-right: 3em;
   -webkit-filter: invert(1);
@@ -127,9 +126,17 @@ ul {
   transition: 0.5s;
 }
 
-.social li a:hover {
+.social a:hover {
   -webkit-transform: scale(2.5) translateY(-15px);
           transform: scale(2.5) translateY(-15px);
+}
+
+.title {
+  font-weight: 800;
+  font-size: 2em;
+  padding: 0em 0em 1em 0em;
+  text-align: center;
+  padding: 1em 1em;
 }
 
 .about-me-section {
@@ -138,7 +145,7 @@ ul {
   padding-bottom: 3em;
 }
 
-.about-me-section h1, .about-me-section p {
+.about-me-section .title, .about-me-section p {
   padding: 0em 0em 1em 0em;
   text-align: center;
   padding: 1em 1em;
@@ -148,13 +155,10 @@ ul {
   font-weight: bold;
 }
 
-.about-me-section h1 {
-  font-weight: 800;
-  font-size: 2em;
-}
-
 .about-me-section p {
   font-size: 1.2em;
+  padding-right: 4em;
+  padding-left: 4em;
 }
 
 .about-me-section img {
@@ -167,15 +171,59 @@ ul {
 }
 
 .experience-section {
+  margin-top: 29px;
   padding: 1em 1em;
   background: deepskyblue;
 }
 
+.experience-section .experience-paragraph-items {
+  padding: 2em 2em;
+}
+
+.experience-section .experience-paragraph-title {
+  font-size: 1.5em;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+.experience-section ul {
+  margin-top: -40px;
+  list-style: none;
+  /* Remove default bullets */
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.experience-section li {
+  padding-top: 20px;
+}
+
+.experience-section ul li::before {
+  content: "\2022";
+  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: lime;
+  /* Change the color */
+  font-weight: bold;
+  /* If you want it to be bold */
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 1em;
+  /* Also needed for space (tweak if needed) */
+  margin-left: -1em;
+  /* Also needed for space (tweak if needed) */
+}
+
+.contact-section {
+  margin-top: 29px;
+  background: dodgerblue;
+}
+
 label {
   display: block;
-  font-size: 1.2em;
+  font-size: 1.4em;
   margin-bottom: .5em;
   margin-left: 1.7em;
+  font-weight: 600;
 }
 
 input, textarea {
@@ -188,7 +236,7 @@ input, textarea {
 }
 
 input[type="submit"] {
-  background-color: var(--primary-color);
+  background-color: black;
   color: white;
   font-weight: bold;
   font-size: 1.3em;

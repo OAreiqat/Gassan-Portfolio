@@ -36,12 +36,8 @@ body {
 .navbar .home-button {
   text-decoration: none;
   font-weight: bold;
-  color: green;
+  color: Black;
   font-size: 1.5em;
-}
-
-.navbar .home-button span {
-  color: blue;
 }
 
 .navbar .mobile-menu {
@@ -88,14 +84,6 @@ body {
   float: right;
   margin: 1em;
   cursor: pointer;
-}
-
-a {
-  color: yellow;
-}
-
-ul {
-  color: green;
 }
 
 .hero {
@@ -234,7 +222,6 @@ ul {
   font-size: 1.5em;
   font-family: "Open Sans";
   font-weight: 400;
-  background: green;
   border: 3px solid white;
   border-radius: 5px;
 }
@@ -255,7 +242,7 @@ ul {
 .experience-section ul li::before {
   content: "\2022";
   /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: lime;
+  color: black;
   /* Change the color */
   font-weight: bold;
   /* If you want it to be bold */

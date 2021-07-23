@@ -26,12 +26,8 @@ body {
     .home-button {
         text-decoration: none;
         font-weight: bold;
-        color: green;
+        color: Black;
         font-size: 1.5em;
-
-        span {
-            color: blue;
-        }
     }
 
     .mobile-menu {
@@ -84,12 +80,6 @@ body {
 }
 
 
-a {
-    color: yellow;
-}
-ul {
-    color: green;
-}
 
 .hero {
 
@@ -220,7 +210,7 @@ ul {
         font-size: 1.5em;
         font-family: "Open Sans";
         font-weight: 400;
-        background: green;
+        
         border: 3px solid white;
         border-radius: 5px;
 
@@ -240,7 +230,7 @@ ul {
       
       ul li::before {
         content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-        color: lime; /* Change the color */
+        color: black; /* Change the color */
         font-weight: bold; /* If you want it to be bold */
         display: inline-block; /* Needed to add space between the bullet and the text */
         width: 1em; /* Also needed for space (tweak if needed) */

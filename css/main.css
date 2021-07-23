@@ -14,13 +14,23 @@ body {
 
 .navbar {
   padding: 1.3em 1em;
+}
+
+.navbar .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  place-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .mobile-menu {
+  -webkit-transform: scale(1.8);
+          transform: scale(1.8);
 }
 
 .navbar .home-button {
@@ -40,6 +50,44 @@ body {
 
 .navbar nav {
   display: none;
+}
+
+.navbar nav.menu-btn {
+  display: block;
+}
+
+.navbar nav {
+  position: fixed;
+  z-index: 999;
+  width: 33%;
+  right: 0;
+  top: 0;
+  background: #20272E;
+  height: 100vh;
+  padding: 1em;
+}
+
+.navbar nav ul {
+  margin-top: 2.5em;
+}
+
+.navbar nav li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: .5em;
+  font-size: 1.3em;
+  text-align: left;
+}
+
+.navbar nav li a:hover {
+  font-weight: bold;
+}
+
+.navbar .mobile-menu-exit {
+  float: right;
+  margin: 1em;
+  cursor: pointer;
 }
 
 a {
@@ -228,7 +276,7 @@ label {
 }
 
 input, textarea {
-  width: 30em;
+  width: 25em;
   padding: .8em;
   margin-bottom: 1em;
   margin-left: 2em;

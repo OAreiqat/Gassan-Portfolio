@@ -20,8 +20,7 @@
                     <li> <a href="#home-id" class="green-hover">Home</a></li>
                     <li><a href="#about-me-id" class="green-hover">About Me</a></li>
                     <li><a href="#experience-id" class="green-hover">Experience</a></li>
-                    <li><a href="#education-id" class="green-hover">Education</a></li>
-                    <li><a href="#resume-id" class="green-hover">Resume</a></li>
+                    <li><a href="Resume.pdf" class="green-hover">Resume</a></li>
                     <li><a href="#contact-me-id" class="green-hover">Contact Me</a></li>
                 </ul>
             </nav>
@@ -107,7 +106,7 @@
     </section>
 
 
-    <section class="contact-section">
+    <section id="contact-me-id" class="contact-section">
         <div class="container">
             <h1 class="title">Contact Me</h1>
             <div class="contact-me">
@@ -128,6 +127,20 @@
         </div>
     </section>
 
+
+    <script>
+        const mobileBtn = document.getElementById('mobile-open-menu-icon')
+              nav = document.querySelector('nav')
+              mobileBtnExit = document.getElementById('mobile-close-menu-icon');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+    </script>
 
 </body>
 </html>

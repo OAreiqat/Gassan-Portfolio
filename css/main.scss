@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,400;1,700&display=swap');
+
+/* CSS HEX */
+root {
+    --coyote-brown: #8b5d33ff;
+    --cadet: #4f6d7aff;
+    --light-sky-blue: #97d2fbff;
+    --tea-green: #d7fcd4ff;
+    --black: #000000ff;
+}
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,7 +19,7 @@
 }
 
 body {
-    background: white;
+    background: #97d2fbff;
 }
 
 .title {
@@ -56,7 +67,7 @@ body {
         width: 200px;
         right: 0;
         top: 0;
-        background: steelblue;
+        background:#4f6d7aff;
         height: 100vh;
         padding: 1em;
         ul {
@@ -173,7 +184,7 @@ body {
 
 
 .about-me-section {
-    background: cyan;
+    background: var(--tea-green);
     display: block;
     padding-bottom: 1em;
     .container{
@@ -218,7 +229,7 @@ body {
 
 .experience-section {
     padding: 1em 1em;
-    background: deepskyblue;
+    background: #81613C;
 
     .experience-paragraph-items {
         padding: 2em 2em;
@@ -267,7 +278,7 @@ body {
 
 .contact-section {
 
-    background: dodgerblue;
+    background: #d0f0c0;
 
     label {
     display: block;
@@ -337,7 +348,7 @@ body {
 
 
     .contact-section{
-        padding: auto auto;
+
         display: flex;
         justify-content: center;
         align-items: center;

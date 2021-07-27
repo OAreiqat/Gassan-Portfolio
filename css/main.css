@@ -18,7 +18,7 @@ root {
 }
 
 body {
-  background: #97d2fbff;
+  background: #d0f0c0;
 }
 
 .title {
@@ -191,7 +191,7 @@ body {
 }
 
 .about-me-section {
-  background: var(--tea-green);
+  background: #97d2fbff;
   display: block;
   padding-bottom: 1em;
 }
@@ -245,7 +245,7 @@ body {
   padding: 0.5em;
   font-size: 1.5em;
   font-family: "Open Sans";
-  font-weight: 400;
+  font-weight: 800;
   border: 3px solid white;
   border-radius: 5px;
 }

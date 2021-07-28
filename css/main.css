@@ -340,6 +340,9 @@ body {
     top: 4em;
     padding-bottom: 10em;
   }
+  .about-me-section p {
+    max-width: 80vw;
+  }
   .contact-section {
     display: -webkit-box;
     display: -ms-flexbox;

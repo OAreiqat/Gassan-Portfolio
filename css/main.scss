@@ -346,6 +346,12 @@ body {
         }
     }
 
+    .about-me-section {
+        p {
+            max-width: 80vw;
+        }
+    }
+
 
 
     .contact-section{
@@ -381,8 +387,6 @@ body {
         }
     }
 
-
-
     .experience-section {
         ul {
             margin-right: 20vw;
@@ -406,3 +410,4 @@ body {
 
     
 }
+

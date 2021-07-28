@@ -77,11 +77,12 @@ body {
   top: 0;
   background: #4f6d7aff;
   height: 100vh;
-  padding: 1em;
+  padding: 35px 30px;
 }
 
 .navbar nav ul {
   margin-top: 2.5em;
+  list-style-type: none;
 }
 
 .navbar nav li a {
@@ -234,7 +235,7 @@ body {
 
 .experience-section {
   padding: 1em 1em;
-  background: #81613C;
+  background: #508991;
 }
 
 .experience-section .experience-paragraph-items {
@@ -242,20 +243,19 @@ body {
 }
 
 .experience-section .experience-paragraph-title {
+  color: #FCFC62;
   padding: 0.5em;
   font-size: 1.5em;
   font-family: "Open Sans";
-  font-weight: 800;
+  font-weight: 600;
   border: 3px solid white;
   border-radius: 5px;
 }
 
 .experience-section ul {
-  margin: 0;
   padding-left: .1em;
   display: -ms-grid;
   display: grid;
-  margin-top: -40px;
   list-style: none;
   /* Remove default bullets */
   font-size: 1.2em;
@@ -263,11 +263,12 @@ body {
 }
 
 .experience-section li {
-  padding-top: 20px;
+  padding-top: 10px;
   color: whitesmoke;
   position: relative;
   margin-bottom: 1em;
   margin-left: 0em;
+  font-weight: normal;
 }
 
 .experience-section ul li::before {
@@ -367,28 +368,12 @@ body {
     top: 6.2em;
     padding-bottom: 8em;
   }
-  .experience-section h1 {
-    width: -webkit-max-content;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  .experience-section li {
-    margin-left: 30vw;
+  .experience-section ul {
     margin-right: 20vw;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
   .experience-section .experience-paragraph-title {
+    width: -webkit-max-content;
+    margin-left: 15px;
     padding: 0.5em;
     font-size: 1.5em;
     font-family: "Open Sans";
